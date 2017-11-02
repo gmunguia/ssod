@@ -1,0 +1,32 @@
+{
+  "name": "ssod",
+  "version": "0.1.0",
+  "description": "Automatically uploads markdown documentation as confluence wiki pages.",
+  "main": "./lib/api.js",
+  "bin": {
+    "ssod": "./bin/ssod.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [ "documentation", "confluence", "markdown", "plantuml" ],
+  "author": "Gerardo Munguia",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "2.3.0",
+    "confluence-api": "1.1.0",
+    "markdown-it": "8.4.0",
+    "markdown-it-confluence": "0.2.0",
+    "markdown-it-plantuml": "0.3.0",
+    "ramda": "0.25.0",
+    "rc": "1.2.2"
+  },
+  "devDependencies": {
+    "eslint": "4.10.0",
+    "eslint-config-standard": "10.2.1",
+    "eslint-plugin-import": "2.8.0",
+    "eslint-plugin-node": "5.2.1",
+    "eslint-plugin-promise": "3.6.0",
+    "eslint-plugin-standard": "3.0.1"
+  }
+}
