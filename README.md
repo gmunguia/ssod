@@ -39,3 +39,7 @@ Just run the main executable from your project directory:
 ```bash
 $ node node_modules/.bin/ssod
 ```
+
+## License
+
+[MIT](https://github.com/gmunguia/ssod/blob/master/LICENSE)
